@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Header = props => (
   <header className="top">
@@ -16,7 +16,7 @@ const Header = props => (
   </header>
 );
 
-// class Header extends Component {
+// class Header extends React.Component {
 //   render() {
 //     return (
 //       <header className="top">
